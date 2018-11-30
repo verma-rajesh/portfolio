@@ -10,6 +10,7 @@ body {
   color: #333;
 }
 
+/* trenta */
 h1 {
   font-size: 40px;
   font-weight: 400;
@@ -22,7 +23,6 @@ h2 {
 
 p {
   font-weight: 300;
-  font-size: 18px;
   line-height: 1.5;
 }
 
@@ -132,6 +132,7 @@ a.active {
 
 .btn-look:hover {
   background-color: #ccc;
+  text-decoration: none;
 }
 
 .btn-look:active {
@@ -150,4 +151,97 @@ a.active {
 .social-link {
   display: inline-block;
   margin-right: 20px;
+}
+
+/* venti */
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  .btn-look {
+    font-size: 18px;
+  }
+
+  .work-img {
+    width: 40%;
+  }
+
+  .work-info {
+    padding: 5px;
+    width: 60%;
+  }
+}
+
+/* grande */
+@media (max-width: 850px) {
+  .work-list {
+    display: none;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .btn-look {
+    font-size: 15px;
+    padding: 3px 10px;
+  }
+}
+
+/* tall */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  body {
+    font-size: 20px;
+  }
+
+  p {
+    font-weight: 400;
+  }
+
+  .work-item {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .work-list {
+    display: block;
+  }
+
+  .work-img {
+    width: 100%;
+  }
+
+  .work-info {
+    position: static;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .btn-look {
+    font-size: 15px;
+    padding: 3px 10px;
+  }
+
+  .btn-look {
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 8px 10px;
+  }
+
+  .brand-container {
+    display: none;
+  }
 }
