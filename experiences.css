@@ -1,0 +1,105 @@
+.experience-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+  width: 100%;
+}
+
+.experience-title-container {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.experience-title {
+  max-width: 300px;
+}
+
+.experience-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
+  border-bottom: 1px solid #adadad;
+}
+
+.experience-divisions {
+  padding: 20px;
+}
+
+.experience-division {
+  margin: 15px;
+  border-bottom: 1px solid #adadad;
+  padding-bottom: 15px;
+}
+
+.experience-definitions {
+  margin-bottom: 15px;
+}
+
+.experience-definition {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.experience-definition.wrap {
+  flex-wrap: wrap;
+}
+
+.experience-term {
+  width: 240px;
+}
+
+.experience-explanation {
+  width: 100%;
+}
+
+.experience-explanation.center {
+  text-align: center;
+}
+
+.experience-explanation-list {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.experience-explanation-list li {
+  padding-left: 1em;
+  text-indent: -0.7em;
+}
+
+.experience-explanation-list li::before {
+  content: "• ";
+  color: #b2b2b2;
+}
+
+.quote-cloud {
+  border: 1px solid #adadad;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.quote-cloud-quote:nth-child(5n + 2) {
+  align-self: center;
+}
+
+.quote-cloud-quote:nth-child(5n + 3) {
+  padding-left: 10%;
+  align-self: flex-start;
+}
+
+.quote-cloud-quote:nth-child(5n + 4) {
+  padding-right: 10%;
+  align-self: flex-end;
+}
+
+.quote-cloud-quote:nth-child(5n) {
+  align-self: flex-end;
+}
