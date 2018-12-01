@@ -38,6 +38,8 @@
 
 .experience-definitions {
   margin-bottom: 15px;
+  max-width: 1000px;
+  margin: 15px auto;
 }
 
 .experience-definition {
@@ -105,6 +107,10 @@
   align-self: flex-end;
 }
 
+.experience-explanation img {
+  width: 100%;
+}
+
 .stack-containers {
   display: flex;
   align-items: stretch;
@@ -113,6 +119,10 @@
 
 .stack-item {
   width: 49%;
+}
+
+.stack-p {
+  font-weight: 300;
 }
 
 .stack-container {
@@ -138,6 +148,10 @@
   font-size: 20px;
 }
 
+.experience-explanation.center > img {
+  max-width: 800px;
+}
+
 .comp-container {
   width: 100%;
 }
@@ -156,6 +170,12 @@
   position: relative;
   top: 38px;
   left: 21px;
+}
+
+.experience-nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 /* grande */
@@ -178,5 +198,63 @@
 
   .stack-section {
     margin-bottom: 15px;
+  }
+
+  .comp {
+    width: 550px;
+    height: 450px;
+  }
+
+  .comp > iframe {
+    width: 527px;
+    height: 325px;
+    top: 6px;
+    left: 13px;
+  }
+}
+
+/* tall */
+@media (max-width: 600px) {
+  .experience-header {
+    flex-direction: column;
+  }
+  .experience-header-img {
+    width: 100%;
+  }
+
+  .experience-link {
+    font-size: 12px;
+  }
+
+  .experience-divisions {
+    padding: 8px;
+  }
+
+  .experience-definition {
+    flex-direction: column;
+  }
+
+  .quote-cloud-quote {
+    font-size: 13px;
+  }
+
+  .experience-explanation {
+    font-size: 15px;
+  }
+
+  .stack-p {
+    font-size: 15px;
+  }
+
+  .comp {
+    width: 325px;
+    height: 266px;
+  }
+
+  .comp > iframe {
+    width: 312px;
+    height: 192px;
+    top: 4px;
+    left: 7px;
   }
 }
