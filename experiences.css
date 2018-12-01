@@ -162,6 +162,10 @@ ul.experience-explanation-list li::before {
   flex-direction: column;
 }
 
+.stack-img-text-container img {
+  width: 100%;
+}
+
 .border-img {
   border: 1px solid #979797;
 }
@@ -231,8 +235,24 @@ ul.experience-explanation-list li::before {
   margin-bottom: 10px;
 }
 
+.embed-container {
+  text-align: center;
+}
+
+.invision-embed-fallback {
+  display: none;
+}
+
 /* grande */
 @media (max-width: 850px) {
+  .swot {
+    width: 500px;
+  }
+
+  .swot-cell {
+    padding: 5px;
+  }
+
   .stack-item {
     width: 100%;
     margin-bottom: 15px;
@@ -268,6 +288,27 @@ ul.experience-explanation-list li::before {
 
 /* tall */
 @media (max-width: 600px) {
+  .swot {
+    width: 280px;
+  }
+
+  .swot-title {
+    font-size: 17px;
+  }
+
+  .swot-li {
+    font-size: 15px;
+  }
+
+  .invision-embed-fallback {
+    display: block;
+    margin: 30px 0;
+  }
+
+  .invision-embed {
+    display: none;
+  }
+
   .experience-header {
     flex-direction: column;
   }
