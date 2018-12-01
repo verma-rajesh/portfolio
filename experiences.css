@@ -18,12 +18,19 @@
   max-width: 300px;
 }
 
+.experience-subtitle {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .experience-links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin-top: 15px;
-  border-bottom: 1px solid #adadad;
+  max-width: 1000px;
+  padding: 0 5px;
+  margin: 0 auto;
 }
 
 .experience-divisions {
@@ -71,12 +78,21 @@
   margin: 15px 0;
 }
 
-.experience-explanation-list li {
+.experience-explanation p:nth-child(n + 2) {
+  margin-top: 15px;
+}
+
+ol.experience-explanation-list {
+  list-style: decimal-leading-zero;
+  list-style-position: inside;
+}
+
+ul.experience-explanation-list li {
   padding-left: 1em;
   text-indent: -0.7em;
 }
 
-.experience-explanation-list li::before {
+ul.experience-explanation-list li::before {
   content: "• ";
   color: #b2b2b2;
 }
@@ -87,6 +103,8 @@
   flex-direction: column;
   padding: 20px;
   margin-bottom: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .quote-cloud-quote:nth-child(5n + 2) {
@@ -148,8 +166,8 @@
   font-size: 20px;
 }
 
-.experience-explanation.center > img {
-  max-width: 800px;
+.experience-explanation > p {
+  font-weight: 300;
 }
 
 .comp-container {
@@ -174,8 +192,10 @@
 
 .experience-nav {
   position: sticky;
+  z-index: 100;
   top: 0;
   background-color: white;
+  border: 1px solid #adadad;
 }
 
 /* grande */
