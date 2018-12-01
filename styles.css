@@ -30,6 +30,8 @@ p {
   font-size: 40px;
   font-weight: 300;
   margin: 15px 0;
+  position: relative;
+  z-index: 100;
 }
 
 .nav-link {

@@ -156,6 +156,12 @@ ul.experience-explanation-list li::before {
   justify-content: center;
 }
 
+.stack-img-text-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
 .border-img {
   border: 1px solid #979797;
 }
@@ -196,6 +202,33 @@ ul.experience-explanation-list li::before {
   top: 0;
   background-color: white;
   border: 1px solid #adadad;
+}
+
+.swot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: stretch;
+  width: 600px;
+  margin: 15px auto;
+}
+
+.swot-cell {
+  flex-grow: 1;
+  width: 50%;
+  padding: 10px;
+}
+
+.swot-cell:nth-child(-n + 2) {
+  border-bottom: 2px solid #c2c2c2;
+}
+
+.swot-cell:nth-child(2n) {
+  border-left: 2px solid #c2c2c2;
+}
+
+.swot-title {
+  margin-bottom: 10px;
 }
 
 /* grande */
