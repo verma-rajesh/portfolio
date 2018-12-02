@@ -1,13 +1,12 @@
 .experience-header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 25% 75%;
   align-items: center;
-  justify-content: space-between;
   background-color: #f6f6f6;
   width: 100%;
 }
 
 .experience-title-container {
-  width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -326,8 +325,17 @@ ul.experience-explanation-list li::before {
   }
 
   .experience-header {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 100%;
   }
+
+  .experience-title-container {
+    width: 40%;
+  }
+  
   .experience-header-img {
     width: 100%;
   }
