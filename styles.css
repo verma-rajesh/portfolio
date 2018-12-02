@@ -32,6 +32,36 @@ p {
   margin: 15px 0;
   position: relative;
   z-index: 100;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.animate-container {
+  animation: apparate 30s infinite linear;
+  position: relative;
+  width: 100%;
+}
+
+/* .permanent-container {
+  flex-basis: 190px;
+  width: 190px;
+} */
+
+.permanent-container > a {
+  width: 190px;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.animate-container:first-child {
+  text-align: right;
+  padding-right: 12px;
+}
+
+.animate-container:last-child {
+  text-align: left;
+  padding-right: 12px;
 }
 
 .nav-link {
@@ -183,8 +213,38 @@ a.active {
   }
 }
 
+/* trenta */
+@media (max-width: 1350px) {
+  .title-container {
+    font-size: 30px;
+  }
+  .permanent-container > a {
+    width: 143px;
+  }
+  .nav-link {
+    font-size: 22px;
+  }
+}
+
+/* venti */
+@media (max-width: 1000px) {
+  .title-container {
+    font-size: 25px;
+  }
+  .permanent-container > a {
+    width: 120px;
+  }
+  .nav-link {
+    font-size: 18px;
+  }
+}
+
 /* grande */
 @media (max-width: 850px) {
+  .animate-container {
+    display: none;
+  }
+
   .work-list {
     display: none;
   }
@@ -211,6 +271,10 @@ a.active {
 
   p {
     font-weight: 400;
+  }
+
+  .head-nav {
+    margin-bottom: 20px;
   }
 
   .work-item {
@@ -245,5 +309,32 @@ a.active {
 
   .brand-container {
     display: none;
+  }
+}
+
+@keyframes apparate {
+  0% {
+    top: -15px;
+    opacity: 0;
+  }
+
+  3% {
+    top: 0;
+    opacity: 1;
+  }
+
+  15% {
+    top: 0;
+    opacity: 1;
+  }
+
+  18% {
+    top: 15px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 15px;
+    opacity: 0;
   }
 }
