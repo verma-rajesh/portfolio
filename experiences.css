@@ -325,7 +325,15 @@ ul.experience-explanation-list li::before {
   }
 
   .experience-header {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    width: 100%;
+  }
+
+  .experience-title-container {
+    width: 40%;
   }
   
   .experience-header-img {
