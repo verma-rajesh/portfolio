@@ -127,12 +127,23 @@ ul.experience-explanation-list li::before {
 
 .experience-explanation img {
   width: 100%;
+  padding-top: 20px;
 }
 
 .stack-containers {
   display: flex;
   align-items: stretch;
   justify-content: space-between;
+}
+
+.dual-stack {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.dual-stack-item {
+  width: 100%;
 }
 
 .stack-item {
@@ -148,7 +159,7 @@ ul.experience-explanation-list li::before {
   flex-direction: column;
   justify-content: space-between;
   border: 1px solid #adadad;
-  padding: 5px;
+  padding: 0 5px;
 }
 
 .stack-img-container {
@@ -257,6 +268,11 @@ ul.experience-explanation-list li::before {
     width: 100%;
     margin-bottom: 15px;
   }
+
+  .dual-stack-item {
+    margin-bottom: 15px;
+  }
+
   .stack-containers {
     flex-wrap: wrap;
   }
