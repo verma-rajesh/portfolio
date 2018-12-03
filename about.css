@@ -42,6 +42,10 @@
 
 /* tall */
 @media (max-width: 600px) {
+  .about-p {
+    font-weight: 300;
+  }
+
   .about-division {
     flex-direction: column;
   }

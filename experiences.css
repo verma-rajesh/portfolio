@@ -4,6 +4,7 @@
   align-items: center;
   background-color: #f6f6f6;
   width: 100%;
+  overflow: hidden;
 }
 
 .experience-title-container {
@@ -40,6 +41,10 @@
   margin: 15px;
   border-bottom: 1px solid #adadad;
   padding-bottom: 15px;
+}
+
+.experience-division:last-child {
+  border-bottom: none;
 }
 
 .experience-definitions {
@@ -262,7 +267,8 @@ ul.experience-explanation-list li::before {
   text-align: center;
 }
 
-.invision-embed-fallback {
+.invision-embed-fallback,
+.invision-title {
   display: none;
 }
 
@@ -439,7 +445,7 @@ ul.experience-explanation-list li::before {
   .experience-title-container {
     width: 40%;
   }
-  
+
   .experience-header-img {
     width: 100%;
   }
