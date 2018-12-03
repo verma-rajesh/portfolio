@@ -38,15 +38,10 @@ p {
 }
 
 .animate-container {
-  animation: apparate 30s infinite linear;
+  animation: apparate 30s linear;
   position: relative;
   width: 100%;
 }
-
-/* .permanent-container {
-  flex-basis: 190px;
-  width: 190px;
-} */
 
 .permanent-container > a {
   width: 190px;

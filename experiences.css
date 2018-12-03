@@ -59,6 +59,10 @@
   flex-wrap: wrap;
 }
 
+.experience-term.full {
+  width: 100%;
+}
+
 .experience-term {
   width: 240px;
 }
@@ -75,6 +79,10 @@
   list-style: none;
   padding: 0;
   margin: 15px 0;
+}
+
+.experience-explanation-list:first-child {
+  margin-top: 0;
 }
 
 .experience-explanation p:nth-child(n + 2) {
@@ -176,6 +184,11 @@ ul.experience-explanation-list li::before {
   width: 100%;
 }
 
+.stack-subtitle.center {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .border-img {
   border: 1px solid #979797;
 }
@@ -253,6 +266,77 @@ ul.experience-explanation-list li::before {
   display: none;
 }
 
+.start-pushing-column-list-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.space-top-bottom {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.test {
+  margin: 15px 0;
+}
+
+.test-body {
+  border: 2px solid #d1d1d1;
+  padding: 10px;
+  text-align: center;
+}
+
+.test-subtitle {
+  margin-bottom: 10px;
+}
+
+.test-img {
+  width: 100%;
+  min-width: 150px;
+}
+
+.persona {
+  border: #d1d1d1 1px solid;
+  padding: 20px;
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+
+.persona-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.persona-title,
+.persona-p {
+  margin-bottom: 15px;
+}
+
+.persona-list {
+  margin-bottom: 0;
+}
+
+.persona-lists {
+  display: flex;
+  justify-content: space-around;
+}
+
+.persona-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.persona-img {
+  width: 100%;
+  min-width: 150px;
+  max-width: 180px;
+}
+
 /* grande */
 @media (max-width: 850px) {
   .swot {
@@ -299,10 +383,30 @@ ul.experience-explanation-list li::before {
     top: 6px;
     left: 13px;
   }
+
+  .start-pushing-column-list-container {
+    width: 100%;
+  }
 }
 
 /* tall */
 @media (max-width: 600px) {
+  .persona {
+    flex-direction: column-reverse;
+  }
+
+  .persona-lists {
+    flex-direction: column;
+  }
+
+  .persona-p {
+    font-weight: 300;
+  }
+
+  .persona-text {
+    font-size: 15px;
+  }
+
   .swot {
     width: 280px;
   }
@@ -374,5 +478,9 @@ ul.experience-explanation-list li::before {
     height: 192px;
     top: 4px;
     left: 7px;
+  }
+
+  .start-pushing-column-list-container {
+    font-size: 15px;
   }
 }

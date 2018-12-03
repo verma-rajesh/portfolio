@@ -16,16 +16,12 @@
   <body>
     <nav class="head-nav">
       <div class="brand-container">NH</div>
-      <div class="title-container">
-        <div class="animate-container">HELLO! MY NAME IS</div>
-        <div class="permanent-container"><a href=".">NIKI HOLT</a></div>
-        <div class="animate-container">, A UX DESIGNER IN SEATTLE</div>
-      </div>
+      <div class="title-container"><a href="./index.html">NIKI HOLT</a></div>
       <ul class="nav-links">
-        <li class="nav-link"><a class="nav-a" href=".">WORK</a></li>
+        <li class="nav-link"><a class="nav-a" href="./index.html">WORK</a></li>
         <li class="nav-link"><a class="nav-a" href="about.html">ABOUT</a></li>
         <li class="nav-link">
-          <a class="nav-a" href="NikiHoltResume.pdf">RÉSUMÉ</a>
+          <a class="nav-a" href="./NikiHoltUXResume.pdf">RÉSUMÉ</a>
         </li>
       </ul>
     </nav>
@@ -108,11 +104,13 @@
             <div class="experience-definition">
               <dt class="experience-term">MY ROLE:</dt>
               <dd class="experience-explanation">
-                I was the visual designer for this project. This means that I
-                did research on accessibility, studied color theory, created a
-                style guide based on the original website as well as the new
-                design, and redesigned portions of the new website based on user
-                tested wireframes and client needs.
+                <p>
+                  I was the visual designer for this project. This means that I
+                  did research on accessibility, studied color theory, created a
+                  style guide based on the original website as well as the new
+                  design, and redesigned portions of the new website based on
+                  user tested wireframes and client needs.
+                </p>
                 <ul class="experience-explanation-list">
                   <li>Increase revenue by 15% by October 2019</li>
                   <li>Increase percentage of people that add to cart by 10%</li>
@@ -131,9 +129,11 @@
             <div class="experience-definition">
               <dt class="experience-term">THE RESEARCH:</dt>
               <dd class="experience-explanation">
-                The purpose of these questions was to get a feel for the types
-                of users that shop at Elliott Bay, what the current competition
-                is, and what they like about Elliott Bay.
+                <p>
+                  The purpose of these questions was to get a feel for the types
+                  of users that shop at Elliott Bay, what the current
+                  competition is, and what they like about Elliott Bay.
+                </p>
                 <ul class="experience-explanation-list">
                   <li>
                     How do you generally shop for books (online or in store)?
@@ -275,12 +275,54 @@
             </div>
             <div class="experience-definition wrap">
               <dt class="experience-term">PERSONA:</dt>
-              <dd class="experience-explanation center">
+            </div>
+            <div class="persona">
+              <div class="persona-text">
+                <h3 class="persona-title">DANIELA PETERSON</h3>
+                <p class="persona-p">
+                  Daniella is the grandmother of a 15 y/o. Daniella buys online
+                  with moderate frequency because she knows it’s the best way to
+                  get specialist products and she appreciates the convenience of
+                  home delivery.
+                </p>
+                <p class="persona-p">Tech empathy: Medium, Prefers Desktop</p>
+                <div class="persona-lists">
+                  <div class="persona-list-container">
+                    <h4 class="persona-list-title">Needs from online store:</h4>
+                    <ul class="persona-list experience-explanation-list">
+                      <li class="persona-li">
+                        Simple layout with clear choies
+                      </li>
+                      <li class="persona-li">
+                        Suggestions based on past purchases
+                      </li>
+                      <li class="persona-li">
+                        Understanding of age and difficulty
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="persona-list-container">
+                    <h4 class="persona-list-title">Pain Points:</h4>
+                    <ul class="persona-list experience-explanation-list">
+                      <li class="persona-li">Overwhelmed by options</li>
+                      <li class="persona-li">Indistinct product categories</li>
+                      <li class="persona-li">
+                        Having to remember payment details
+                      </li>
+                      <li class="persona-li">
+                        Having no person to call for help
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="persona-img-container">
                 <img
                   src="./images/eb-persona.png"
-                  alt="persona information about Daniela Walters, a fictional person whom the project catered the site to"
+                  alt="middle-aged white woman crossing her arms"
+                  class="persona-img"
                 />
-              </dd>
+              </div>
             </div>
             <div class="experience-definition">
               <dt class="experience-term">CONTEXT:</dt>
@@ -319,6 +361,18 @@
                   src="./images/eb-purchase.png"
                   alt="flow chart describing how Daniela would have to navigate the site to find the correct book she was looking for"
                 />
+              </dd>
+            </div>
+            <div class="experience-definition">
+              <dt class="experience-term">PROPOSED SOLUTION:</dt>
+              <dd class="experience-explanation">
+                By creating a simple and intuitive way to browse books, users
+                will have more success finding their desired books and
+                completing the checkout process.
+                <img
+                  src="./images/eb-flow-solution.png"
+                  alt="proposed solution in flow chart form, a simpler flow"
+                />
                 <p>
                   Let’s try to solve this problem through some more user
                   research:
@@ -331,6 +385,201 @@
                 I conducted with some card sorting to find some patterns that
                 would help better categorize genres and understand where genres
                 should live in the global navigation.
+              </dd>
+            </div>
+            <div class="stack-containers">
+              <div class="stack-item stack-img-text-container">
+                <h3 class="stack-subtitle center">
+                  BOOK CATEGOTIES OPEN CARD SORT
+                </h3>
+                <img
+                  src="./images/eb-cart-sort-open.png"
+                  alt="new blue-based style guide"
+                />
+              </div>
+              <div class="stack-item stack-img-text-container ">
+                <h3 class="stack-subtitle center">
+                  BOOK CATEGORIES CLOSED CARD SORT
+                </h3>
+                <img
+                  src="./images/eb-card-sort-closed.png"
+                  alt="new blue-based style guide"
+                />
+              </div>
+            </div>
+            <div class="experience-definition wrap">
+              <dt class="experience-term full space-top-bottom">
+                KEY TAKEAWAY FROM THE BOOK CATEGORIES CARD SORT: TOO MANY
+                CATEGORIES!
+              </dt>
+              <dd class="experience-explanation">
+                Below is the condensed list of just 12 categories that users
+                sorted books into most frequently:
+              </dd>
+            </div>
+            <div class="start-pushing-column-list-container">
+              <ul class="start-pushing-column-list experience-explanation-list">
+                <li class="start-pushing-column-list-li">Best Sellers</li>
+                <li class="start-pushing-column-list-li">Children</li>
+                <li class="start-pushing-column-list-li">Travel</li>
+                <li class="start-pushing-column-list-li">Fiction</li>
+                <li class="start-pushing-column-list-li">Young Adult</li>
+                <li class="start-pushing-column-list-li">Art/Music</li>
+              </ul>
+              <ul class="start-pushing-column-list experience-explanation-list">
+                <li class="start-pushing-column-list-li">Non Fiction</li>
+                <li class="start-pushing-column-list-li">Self Help</li>
+                <li class="start-pushing-column-list-li">Staff Picks</li>
+                <li class="start-pushing-column-list-li">SciFi/Fantasy</li>
+                <li class="start-pushing-column-list-li">Education</li>
+              </ul>
+            </div>
+            <div class="experience-definition wrap">
+              <dt class="experience-term">GLOBAL NAVIGATION SORT:</dt>
+              <dd class="experience-explanation center">
+                <img
+                  src="./images/eb-nav-sort.png"
+                  alt="index cards on a table, showing the physical mechaism of how Niki did the card sort"
+                />
+              </dd>
+            </div>
+            <div class="experience-definition wrap">
+              <dt class="experience-term full space-top-bottom">
+                KEY TAKEAWAY FROM GLOBAL NAVIGATION CARD SORT: USERS HAVE
+                DIFFERENT OPIONIONS.
+              </dt>
+              <dd class="experience-explanation">
+                When asked to arrange the links in the global navigation, users
+                had differing opinions about where a user would find the link to
+                buy books but most users agreed on “Browse and Buy”.
+              </dd>
+            </div>
+          </dl>
+        </div>
+        <div class="experience-division">
+          <h2 id="develop" class="experience-subtitle">DEVELOP</h2>
+          <dl class="experience-definitions">
+            <dt class="experience-term full">AND NOW FOR SOME MORE TESTING:</dt>
+            <div class="experience-definition">
+              <dd class="experience-explanation">
+                <p>
+                  I gave users 5 tasks. The first task was to find a genre that
+                  would take them to Dragons. The second task was to refine
+                  their search, the third to choose a book, the fourth to add it
+                  to cart, and finally, the fifth task was to check out.
+                </p>
+                <p>
+                  Using informaiton from the card sort, I strated with “Browse
+                  and Buy” as the drop down where users could find book
+                  categories. What I found was that this was not as intuitive as
+                  I had hoped for. Users had a hard time finding genres and also
+                  some issue refining their search. So I tested “Books” next
+                  based on user Feedback.
+                </p>
+              </dd>
+            </div>
+            <div class="test">
+              <h3 class="test-title">THIS SEEMS INTUITVE …</h3>
+              <div class="test-body">
+                <h4 class="test-subtitle">
+                  “BROWSE AND BUY”: VERSION ONE NAVIGATION
+                </h4>
+                <img
+                  src="./images/eb-test-1.png"
+                  alt="showing the interface using a button with the text browse and buy. charted info shows it performed poorly with users exhibiting browse behavior"
+                  class="test-img"
+                />
+              </div>
+            </div>
+            <div class="test">
+              <h3 class="test-title">LET'S TEST AGAIN:</h3>
+              <div class="test-body">
+                <h4 class="test-subtitle">“BOOKS”: VERSION TWO NAVIGATION</h4>
+                <img
+                  src="./images/eb-test-2.png"
+                  alt="showing the interface using a button with the text browse. test results are middling, better than the previous text but still not good"
+                  class="test-img"
+                />
+              </div>
+            </div>
+            <dt class="experience-term full">
+              TIME FOR A REVISED PROBLEM STATEMENT:
+            </dt>
+            <div class="experience-definition">
+              <dd class="experience-explanation">
+                <p>
+                  I realised that my problem was not just the lack of an
+                  intuitive path to find book categories...
+                </p>
+                <p>
+                  In addition to refined categorization, not only does a “Browse
+                  By Category” feature need to exist, it needs to be clearly
+                  labeled in order to effectively communicate its purpose to the
+                  user.
+                </p>
+                <p>
+                  So I iterated on the naming convention one final time with the
+                  feedback that users wanted a very clearly labeled path to
+                  search genres. The new link name I used was “Explore Genres”.
+                </p>
+              </dd>
+            </div>
+            <div class="test">
+              <h3 class="test-title">THE SOLUTION:</h3>
+              <div class="test-body">
+                <h4 class="test-subtitle">“BOOKS”: VERSION TWO NAVIGATION</h4>
+                <img
+                  src="./images/eb-test-3.png"
+                  alt="showing the interface using a button with the text explore genres. test results are great across the board, showing this is the superior solution"
+                  class="test-img"
+                />
+              </div>
+            </div>
+          </dl>
+        </div>
+        <div class="experience-division">
+          <h2 id="deliver" class="experience-subtitle">DELIVER</h2>
+          <dl class="experience-definitions">
+            <h3 class="center-title">Prototype</h3>
+            <div class="comp-container">
+              <div class="comp">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube-nocookie.com/embed/WDEuEV4j_-c"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+            <div class="experience-definition">
+              <dt class="experience-term">LESSONS LEARNED:</dt>
+              <dd class="experience-explanation">
+                I am not the user! Although I did multiple card sorts and
+                usability testing, not enough early testing was specifically
+                done to determine the most intuitve global navigation
+                nomenclature.
+              </dd>
+            </div>
+            <div class="experience-definition">
+              <dt class="experience-term">NEXT STEPS:</dt>
+              <dd class="experience-explanation">
+                <p>For future iterations I would:</p>
+                <ul class="experience-explanation-list">
+                  <li>
+                    Highlight the “Staff Picks” section because it is a unique
+                    part of the Elliott Bay Culture
+                  </li>
+                  <li>
+                    Focus more on accessibility by increasing font sizing,
+                    wideing margins, and increasing contrast.
+                  </li>
+                  <li>
+                    Create a color mockup that modernizes the webisite but also
+                    stays true to the branding.
+                  </li>
+                </ul>
               </dd>
             </div>
           </dl>
@@ -350,6 +599,7 @@
             <img src="images/in.png" alt="LinkedIn" />
           </a>
         </li>
+        <li class="social-link"><a href="./NikiHoltUXResume.txt">TXT</a></li>
         <li class="social-link">hello at niki holt dot com</li>
       </ul>
 
