@@ -41,6 +41,7 @@ p {
   animation: apparate 30s linear;
   position: relative;
   width: 100%;
+  opacity: 0;
 }
 
 .permanent-container > a {
@@ -108,7 +109,6 @@ a.active {
   text-align: center;
   position: relative;
   border-bottom: 1px solid #adadad;
-  margin-bottom: 45px;
 }
 
 .work {
